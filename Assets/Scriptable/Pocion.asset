@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Pocion
   m_EditorClassIdentifier: 
   itemName: Pocion
-  itemSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  itemSprite: {fileID: 4632984671061331808, guid: 15573f6b23fd9164fa67ba740ad1faf5, type: 3}
