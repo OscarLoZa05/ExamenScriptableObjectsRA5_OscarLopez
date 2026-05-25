@@ -311,8 +311,8 @@ GameObject:
   m_Component:
   - component: {fileID: 353511871}
   - component: {fileID: 353511870}
-  - component: {fileID: 353511869}
   - component: {fileID: 353511868}
+  - component: {fileID: 353511872}
   m_Layer: 0
   m_Name: Espada
   m_TagString: Untagged
@@ -366,20 +366,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.1451484, y: 0.15195656}
   m_EdgeRadius: 0
---- !u!114 &353511869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 353511867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 414216ac8feec754ba7f87e3ce6b5001, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: b0fd3fd4ed9bed84496ee77cfbafedca, type: 2}
-  itemSprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!212 &353511870
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -450,6 +436,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &353511872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353511867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 414216ac8feec754ba7f87e3ce6b5001, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: b0fd3fd4ed9bed84496ee77cfbafedca, type: 2}
+  itemSprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &422866889
 GameObject:
   m_ObjectHideFlags: 0
@@ -676,8 +676,8 @@ GameObject:
   m_Component:
   - component: {fileID: 578650826}
   - component: {fileID: 578650825}
-  - component: {fileID: 578650824}
   - component: {fileID: 578650823}
+  - component: {fileID: 578650827}
   m_Layer: 0
   m_Name: Pocion
   m_TagString: Untagged
@@ -731,20 +731,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.2, y: 0.2}
   m_EdgeRadius: 0
---- !u!114 &578650824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 578650822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 414216ac8feec754ba7f87e3ce6b5001, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 6d98f7741cb363c459e698228b777ceb, type: 2}
-  itemSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!212 &578650825
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -815,6 +801,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &578650827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578650822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 414216ac8feec754ba7f87e3ce6b5001, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 6d98f7741cb363c459e698228b777ceb, type: 2}
+  itemSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1406,8 +1406,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1714568611}
   - component: {fileID: 1714568610}
-  - component: {fileID: 1714568609}
   - component: {fileID: 1714568608}
+  - component: {fileID: 1714568612}
   m_Layer: 0
   m_Name: Escudo
   m_TagString: Untagged
@@ -1461,20 +1461,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.13001856, y: 0.2}
   m_EdgeRadius: 0
---- !u!114 &1714568609
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1714568607}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 414216ac8feec754ba7f87e3ce6b5001, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 14bf68fa20a211d4c9dfab0f5f905b79, type: 2}
-  itemSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!212 &1714568610
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1545,6 +1531,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1714568612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714568607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 414216ac8feec754ba7f87e3ce6b5001, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 14bf68fa20a211d4c9dfab0f5f905b79, type: 2}
+  itemSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &1745292414
 GameObject:
   m_ObjectHideFlags: 0
